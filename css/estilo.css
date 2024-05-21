@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+header{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.buscador {
+    margin: 1px;
+    width: 33%;
+    border: 1px solid blue;
+}
+
+.central{
+    margin: 1px;
+    width: 33%;
+    border: 1px solid red;
+}
+
+.central img{
+    width: 60px;
+    height: 60px;
+    align-content: center;
+}
+
+header nav{
+    margin: 1px;
+    width: 33%;
+    border: 1px solid yellow
+
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li{
+    margin: 5px;
+    list-style-type: none;
+
+}
+
+main{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 99%;
+    border: 1px solid black;
+    
+}
+
+main .carrusel{
+    width: 80%;
+    height: 500px;
+    border: 1px solid blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main .recetas_nuevas{
+    width: 90%;
+    height: 350px;
+    border: 1px solid red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main .recetas_express{
+    width: 90%;
+    height: 350px;
+    border: 1px solid yellow;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
